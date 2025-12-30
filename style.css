@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+.lang-switch {
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+.lang-switch a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #020617, #1e293b);
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.casino-list {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.casino-card {
+    background: #020617;
+    border-radius: 14px;
+    padding: 20px;
+    width: 260px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.rating {
+    color: #facc15;
+}
+
+.casino-card ul {
+    padding-left: 20px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    padding: 12px;
+    background: #22c55e;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.trust {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+.trust h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.trust ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trust li {
+    margin-bottom: 10px;
+}
